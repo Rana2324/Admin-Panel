@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: 0px;
+}
+body{
+    background-color: gray;
+}
+/*navbar start here*/
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    color: white;
+}
+.navbar h3{
+    float: right;
+    padding: 16px 20px;
+    font-size: 20px;
+}
+/*navbar end here*/
+/*contentr start here*/
+.content{
+    width:100%;
+    height: auto;
+}
+/*contentr end here*/
+/*leftsidebar start here*/
+.leftsidebar{
+    width: 30%;
+    height: auto;
+    background-color: white
+}
+.myprofile{
+    width: 100%;
+    height: auto;
+}
+.profile{
+    width: 50%;
+     margin-bottom: 40px;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+.profile img{
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    margin-right: 20px;
+     float: left;
+    
+}
+.profiletexticn{
+    width: 50%;
+    float: right;
+}
+.profiletext{
+    width: 50%;
+     
+}
+.profileicn{
+    width: 50%;
+     
+}
+
+.dashbord{
+    width: 100%;
+}
+
+.dashbordicn{
+    width: 100%;
+}
+.dashbordicn a{
+    display: block;
+    margin: 20px;
+    font-size: 20px
+}
+.overview{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+}
+
+/*leftsidebar end here*/
+/*rightsidebar start here*/
+.rightsidebar{
+    width: 70%;
+    height: auto;
+    
+}
+/*rightsidebar end here*/
