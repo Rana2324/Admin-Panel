@@ -3,9 +3,10 @@
     padding: 0px;
     box-sizing: border-box;
     outline: 0px;
+     text-decoration:none;
 }
 body{
-    background-color: gray;
+    background-color: whitesmoke;
 }
 /*navbar start here*/
 .navbar{
@@ -29,39 +30,54 @@ body{
 /*leftsidebar start here*/
 .leftsidebar{
     width: 30%;
-    height: auto;
-    background-color: white
+    height: 100vh;
+    background-color: white;
+    float: left;
 }
 .myprofile{
     width: 100%;
     height: auto;
 }
 .profile{
-    width: 50%;
-     margin-bottom: 40px;
-    padding: 10px;
+    width: 40%;
     border-bottom: 1px solid black;
+   
+   
+   
 }
 .profile img{
     width: 50%;
-    height: 50%;
+     height: 80px;
     border-radius: 50%;
-    margin-right: 20px;
-     float: left;
-    
+    float: left; 
+    margin: 10px;
 }
-.profiletexticn{
-    width: 50%;
+.details{
+    width: 60%;
+     height: 80px;
     float: right;
+    padding: 10px;
+    margin-bottom: 20px;
 }
-.profiletext{
-    width: 50%;
+.heading{
+    width: 100%;
+    height: 40px;
+    
      
 }
-.profileicn{
-    width: 50%;
-     
+.heading p{
+    padding: 5px;
+    font-size: 15px;
 }
+.icons{
+    width: 100%;
+    height: 40px;    
+}
+.icons a{
+    font-size: 15px;
+    padding: 5px;
+}
+
 
 .dashbord{
     width: 100%;
@@ -70,15 +86,25 @@ body{
 .dashbordicn{
     width: 100%;
 }
+.dashbordtext h3{
+   margin-bottom: 10px;
+    font-size: 20px;
+}
 .dashbordicn a{
     display: block;
-    margin: 20px;
-    font-size: 20px
+    font-size: 15px;
+    padding: 10px;
+    
 }
 .overview{
+    width: 100%;
     background-color: blue;
     color: white;
     padding: 5px;
+}
+.dashbordicn a:hover{
+    background-color: lightgray;
+    color: black;
 }
 
 /*leftsidebar end here*/
@@ -86,6 +112,378 @@ body{
 .rightsidebar{
     width: 70%;
     height: auto;
+     float: left;
+}
+.mydashbord{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    font-size: 20px;
+    padding: 10px 16px;
+}
+.mydashbord a{
+    color: black;
+}
+.socialicons{
+    width: 100%;
+    height: auto;
+    background-color:white;
     
 }
+.number{
+    width: 20%;
+    height:200px;
+    background-color: red;
+    color: white;
+    font-size: 50px;
+    float: left;   
+    
+}
+.header{
+    height: 100px;
+}
+
+.m{
+    width: 50%;
+    height: 100px;
+    line-height: 100px;
+    float: left;
+    padding: 10px;
+    text-align: center;
+    font-size: 70px;
+}
+.n{
+    width: 50%;
+    height: 100px;
+    line-height: 100px;
+    float: left;
+    padding: 10px;
+    text-align: center;
+}
+.socialiconstext{
+    width: 100%;
+    height: 100px;
+    padding: 15px;
+    text-align: center;
+    font-size: 30px;
+}
+.one{
+    background-color: red;
+    margin: 0px 4%;
+}
+.two{
+    background-color: skyblue;
+    margin-right: 4%;
+}
+.three{
+    background-color: yellow;
+     margin-right: 4%;
+}
+.four{
+    background-color: greenyellow;
+    margin-right:4% 
+}
+.regions{
+    width: 100%;
+    height: 100%;
+   overflow: hidden; 
+}
+.feedicons{
+    width: 100%;
+    height: 100%;
+}
+.text1{
+    width: 30%;
+    height: 455px;
+    float: left;
+    background-color: white;
+}
+.text1 img{
+    width: 100%;
+}
+.text2{
+    width: 70%;
+    height: 420px;
+    float: left;
+    
+}
+.text1 p{
+    font-size: 30px;
+    
+}
+.tex2 p{
+   font-size: 30px; 
+   
+}
+.icon{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+   
+    display: block;
+}
+.icon div.ico,.icon div.text,.icon div.time{
+    float: left;
+    font-size: 20px;
+    margin: 0px 12px;
+}
+
+
+.color1{
+   
+   background-color: beige;
+}
+.color2{
+   
+   background-color: tomato;
+}
+
+.generalstats{
+    width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+}
+.generalstatstext{
+    width: 100%;
+}
+.generalstatstext p{
+    font-size: 20px;
+    padding: 10px
+}
+.progressbar{
+    padding: 5px;
+    margin-top: 10px;
+}
+.progressbar p{
+    padding: 10px 0px;
+}
+.progress{
+    width: 100%;
+    height: 30px;
+    background-color: gray;
+    position: relative;
+    
+}
+.pro{
+    width: 25%;
+    height:30px; 
+    position: absolute;
+    background-color: darkred;    
+}
+.protext{
+    width: 25%;
+   text-align: center;
+    position: absolute;   
+}
+.proone{
+    background-color: green;
+}
+.protwo{
+    background-color: red;
+}
+.prothree{
+    background-color: yellow;
+}
+
+.countries{
+    width: 100%;
+    height: 500px;
+}
+.countriestext{
+    font-size: 20px;
+}
+
+.country{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 5px;
+    
+}
+.countriestext p{
+    margin-bottom: 20px;
+}
+.countrytext{
+    float: left;
+    
+   margin-right: 50%;
+}
+.country1{
+    background-color: azure;
+}
+.country2{
+    background-color: beige;
+}
+.button{
+    width: 100%;
+    margin-top: 20px;
+    
+}
+.button button{
+    background-color:black;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+.recentuser{
+    width: 100%;
+    height: auto;
+}
+.usertext{
+    width: 100%;
+}
+.usertext p{
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.userphoto{
+    width: 100%;
+    height: 80px;
+    background-color: antiquewhite;
+    border-bottom: 1px solid black;
+   
+}
+.mike{
+    width: 100%;
+}
+.mike img{
+    width: 60px;
+    height:60px; 
+    border-radius: 50%;
+    margin-right: 20px;
+    padding: 10px;
+    float: left;
+   
+    
+}
+.miketext{
+    width: 100%;
+}
+.miketext p{
+    font-size: 30px;
+   padding: 10px;
+    
+   
+}
+.recentcoment{
+    width: 100%;
+    height: 420px;
+    background-color: gainsboro;
+}
+.recenttext{
+    width: 100%;
+    
+}
+.recenttext p{
+    width: 100%;
+    margin: 20px;
+    font-size:30px;
+    
+}
+.jhonedetails{
+    width: 100%;
+    padding-left: 10px;
+    
+}
+.johnimg{
+    width: 30%;
+
+}
+.johnimg img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10%;
+}
+.johntext{
+    width: 60%;
+    float: left;
+}
+.johndate{
+    width: 100%;
+    
+}
+.johndate p{
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+.johninf{
+    width: 100%;
+}
+.johninf p{
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 20px;
+    
+}
+.socialside{
+    width: 100%;
+    height: 405px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+.demo{
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+    
+}
+.demo p,.syestem p,.target p{
+    margin: 10px;
+}
+.syestem{
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+}
+.target{
+    width: 30%;
+    float: left;
+   
+}
+.demo p.dp{
+    border-bottom: 5px solid green;
+}
+.syestem p.st{
+    border-bottom: 5px solid red;
+}
+.target p.tr{
+    border-bottom: 5px solid yellow;
+}
+.con button{
+    padding: 5px;
+    margin-left: 10px;
+    background-color: blue;
+    color: white;
+}
+
 /*rightsidebar end here*/
+/*footer start here*/
+.footer{
+    width: 100%;
+    height: 30%;
+    background-color: green;
+    color: white;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 20px;
+    
+}
+.footer span{
+    text-decoration: underline;
+}
+/*footer end here*/
+@media only screen and (max-width:480px){
+    .navbar,.leftsidebar,.rightsidebar{
+        width: 100%;
+    }
+    .number,.text1,.feedicons{
+        width: 100%;
+    }
+    
+}
